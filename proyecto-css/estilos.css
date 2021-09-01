@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------------------  HEADER */
+.banner{
+    background-image: url("./img/cafe.jpg");
+    background-color: rgb(63, 61, 61);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+nav {
+  padding: 20px;
+}
+.menuSuperior {
+  list-style: none;
+  text-align: center;
+}
+.menuSuperior li {
+  display: inline-block;
+}
+.menuSuperior a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: blue;
+  color: white;
+  padding: 1.2rem;
+  font-size: 18px;
+}
+
+.titulo{
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* ------------------  CONTENIDO */
+
+.contenedorFlex{
+    display: flex;
+}
+#contenido {
+  background-color: hsla(270, 77%, 83%, 0.801);
+  padding: 2rem;
+  width: 70%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: justify;
+
+}
+.local{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.local img{
+    width: 40%;
+    padding: 1rem;
+}
+.bordesRedondeados{
+    border-radius: 40px ;
+}
+
+aside{
+    background-color: cornflowerblue;
+    width: 30%;
+}
+
+
+/* ------------------  FOOTER */
+
+footer{
+    background-color: rgb(22, 22, 22);
+    color: rgb(236, 234, 234);
+    padding: 2rem;
+}
+
+.bloqueFooter{
+  display: flex;
+  justify-content: space-around;
+}
+.menuFooter{
+  list-style: none;
+  text-align: justify;
+}
+
+.menuFooter a{
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.creditoFinal{
+  text-align: center;
+  padding: 1rem;
+}
